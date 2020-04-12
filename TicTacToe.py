@@ -25,24 +25,6 @@ def player2_move():
     board()
     player2_move = int(input('Please make your move ' + player2))
     table[player2_move] = player2
-# Win Conditions
-#def win_condition():
-#    if table[4] == table[5] == table[6] != ' ':
-#        print('Congrats! Player ' + player1 + ' wins!')
-#    elif table[4] == table[5] == table[6] != ' ':
-#        print('Congrats! Player ' + table[4] + ' wins!')
-#    elif table[1] == table[2] == table[3] != ' ':
-#        print('Congrats! Player ' + table[1] + ' wins!')
-#    elif table[7] == table[5] == table[3] != ' ':
-#        print('Congrats! Player ' + table[7] + ' wins!')
-#    elif table[7] == table[4] == table[1] != ' ':
-#        print('Congrats! Player ' + table[7] + ' wins!')
-#    elif table[1] == table[5] == table[9] != ' ':
-#        print('Congrats! Player ' + table[7] + ' wins!')
-#    elif table[9] == table[6] == table[3] != ' ':
-#        print('Congrats! Player ' + table[7] + ' wins!')
-#    elif table[8] == table[5] == table[2] != ' ':
-#        print('Congrats! Player ' + table[7] + ' wins!')
 
 def game():
 
